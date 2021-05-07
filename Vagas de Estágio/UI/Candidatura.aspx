@@ -17,7 +17,7 @@
                     <li class="nav-item active">
                         <asp:HyperLink NavigateUrl="~/UI/Index.aspx" Text="Home" runat="server"></asp:HyperLink>
                     </li>
-
+                     
                     <li class="nav-item">
                         <asp:HyperLink NavigateUrl="~/UI/Consulta.aspx" Text="Consulta" runat="server"></asp:HyperLink>
                     </li>
@@ -31,47 +31,46 @@
     </header>
     <form id="form1" runat="server">
 
-
-        <div>
+        <div class="estilo">
             <asp:HiddenField ID="id" runat="server" />
 
             <div>
                 <asp:Label for="nome" Text="Nome" runat="server"></asp:Label>
                 <asp:TextBox ID="nome" runat="server"></asp:TextBox>
-            </div>
+            </div><br />
+
             <div>
                 <asp:Label for="email" Text="Email" runat="server"></asp:Label>
                 <asp:TextBox ID="email" runat="server"></asp:TextBox>
-            </div>
+            </div><br />
 
             <div>
                 <asp:Label for="telefone" Text="Telefone" runat="server"></asp:Label>
                 <asp:TextBox ID="telefone" runat="server"></asp:TextBox>
-            </div>
+            </div><br />
 
             <div>
                 <asp:Label for="escola" Text="Escola" runat="server"></asp:Label>
                 <asp:TextBox ID="escola" runat="server"></asp:TextBox>
-            </div>
+            </div><br />
+
             <div>
                 <asp:Label for="curso" Text="Curso" runat="server"></asp:Label>
                 <asp:TextBox ID="curso" runat="server"></asp:TextBox>
-            </div>
+            </div><br />
             <div>
                 <asp:Label for="vaga" Text="Vaga" runat="server"></asp:Label>
-                <asp:DropDownList ID="vaga" runat="server"></asp:DropDownList>
-            </div>
+                <asp:TextBox ID="vaga" runat="server"></asp:TextBox>
+            </div><br />
 
             <div>
                 <asp:Label for="foto" Text="Foto" runat="server"></asp:Label>
                 <asp:FileUpload ID="foto" runat="server"></asp:FileUpload>
-            </div>
+            </div><br />
 
             <div>
                 <asp:Button ID="Salvar" runat="server" Text="Enviar" />
             </div>
-
-
         </div>
     </form>
     <footer>

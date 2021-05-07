@@ -13,5 +13,10 @@ namespace Vagas_de_Estágio.UI
         {
 
         }
+
+        protected void GridConsulta_RowCancelingEdit(object sender, GridViewCancelEditEventArgs e)
+        {
+
+        }
     }
 }

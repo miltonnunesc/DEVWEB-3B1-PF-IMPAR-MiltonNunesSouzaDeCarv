@@ -7,5 +7,6 @@ namespace Vagas_de_Estágio.DTO
 {
     public class CandidaturaDTO
     {
+
     }
 }

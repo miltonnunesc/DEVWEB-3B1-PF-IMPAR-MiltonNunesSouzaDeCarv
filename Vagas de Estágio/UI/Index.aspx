@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
@@ -30,7 +30,7 @@
 
             <h1>VAGAS DE ESTÁGIO</h1>
            
-            <asp:Image ID="imgHome" ImageUrl="~/IMG/imgHome.jpg" AlternateText="vagas TI" runat="server" Height="388px" Width="563px" />
+            <asp:Image ID="imgHome" ImageUrl="~/IMG/vagas.jpg" AlternateText="vagas TI" runat="server" Height="388px" Width="563px" />
         </section>
     </header>
 
@@ -39,7 +39,7 @@
         <section>
             <p>
                 Está fazendo algum curso de Tecnologia e está a procura de um estágio?
-Aqui você vai encontrar as melhores vagas.
+                Aqui você vai encontrar as melhores vagas.
             </p>
         </section>
 
@@ -68,27 +68,26 @@ Aqui você vai encontrar as melhores vagas.
                             V01
                         </asp:TableCell>
                         <asp:TableCell>
-                         Cotemig
+                            MRV
                         </asp:TableCell>
                         <asp:TableCell>
-                Estágio na área de desenvolvimento Web (ASP.NET e C#)
+                            Estágio na área de Planejamento Estratégico
                         </asp:TableCell>
                         <asp:TableCell>
-                        08:00 - 12:00
+                            12:00 - 16:00
                         </asp:TableCell>
                         <asp:TableCell>
-                        Belo Horizonte
+                            São Paulo
                         </asp:TableCell>
                         <asp:TableCell>
-                        R$ 1300,00
+                            R$ 900,00
                         </asp:TableCell>
                         <asp:TableCell>
                             Vale Transporte
-                            Plano de Saúde
                         </asp:TableCell>
                         
                         <asp:TableCell>
-                            Ter cursado ⅓ de algum curso de TI
+                            Formação em andamento em: Economia, Engenharias, Contábeis, Administração, Estatística;
                         </asp:TableCell>
                     </asp:TableRow>
                 </asp:Table>

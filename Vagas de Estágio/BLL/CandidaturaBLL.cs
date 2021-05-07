@@ -7,5 +7,6 @@ namespace Vagas_de_Estágio.BLL
 {
     public class CandidaturaBLL
     {
+
     }
 }

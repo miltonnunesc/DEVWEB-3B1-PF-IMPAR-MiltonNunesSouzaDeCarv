@@ -84,7 +84,7 @@ namespace Vagas_de_Estágio.UI
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList vaga;
+        protected global::System.Web.UI.WebControls.TextBox vaga;
 
         /// <summary>
         /// Controle foto.

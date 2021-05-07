@@ -19,7 +19,7 @@ namespace Vagas_de_Estágio.DAL
         public MySqlConnection conexao;
 
         // Metodo de abrir conexao
-
+         
         public void Conectar()
         {
             try
